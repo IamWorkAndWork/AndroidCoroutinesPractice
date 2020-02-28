@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2.CoroutineAndBackgroundImageProcessing.iml" filepath="$PROJECT_DIR$/.idea/2.CoroutineAndBackgroundImageProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageProcessingCoroutines.iml" filepath="$PROJECT_DIR$/ImageProcessingCoroutines.iml" group="ImageProcessingCoroutines" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ImageProcessingCoroutines/app" />
+    </modules>
+  </component>
+</project>
