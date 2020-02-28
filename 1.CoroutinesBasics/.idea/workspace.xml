@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffa65055-5892-4795-8795-4d1f6e8ae5a1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YEmSG6bvdO7aCcWgYup36QCa1O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Kotlin.ExceptionKt">
+    <configuration name="AsyncKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="1.CoroutinesBasics.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AsyncKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DispatchersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="1.CoroutinesBasics.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="DispatchersKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="1.CoroutinesBasics.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="1.CoroutinesBasics.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="JobKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithContextKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="1.CoroutinesBasics.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WithContextKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ExceptionKt" />
+        <item itemvalue="Kotlin.WithContextKt" />
+        <item itemvalue="Kotlin.AsyncKt" />
+        <item itemvalue="Kotlin.DispatchersKt" />
+        <item itemvalue="Kotlin.JobKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffa65055-5892-4795-8795-4d1f6e8ae5a1" name="Default Changelist" comment="" />
+      <created>1582516125609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582516125609</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="101" key="#Project_Structure" timestamp="1582517468439">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="320" y="101" key="#Project_Structure/0.23.1440.822@0.23.1440.822" timestamp="1582517468439" />
+    <state width="771" height="212" key="GridCell.Tab.0.bottom" timestamp="1582538879247">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582517887669" />
+    <state width="771" height="212" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1582538879247" />
+    <state width="771" height="212" key="GridCell.Tab.0.center" timestamp="1582538879247">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1582517887668" />
+    <state width="771" height="212" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1582538879247" />
+    <state width="771" height="212" key="GridCell.Tab.0.left" timestamp="1582538879246">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1582517887668" />
+    <state width="771" height="212" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1582538879246" />
+    <state width="771" height="212" key="GridCell.Tab.0.right" timestamp="1582538879247">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1582517887668" />
+    <state width="771" height="212" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1582538879247" />
+    <state x="258" y="97" key="Maven.ArtifactSearchDialog" timestamp="1582517606308">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="258" y="97" key="Maven.ArtifactSearchDialog/0.23.1440.822@0.23.1440.822" timestamp="1582517606308" />
+    <state x="0" y="142" key="SettingsEditor" timestamp="1582535355515">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="0" y="142" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1582535355515" />
+    <state x="374" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1582518060955">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="374" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1582518060955" />
+    <state x="184" y="191" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582533109542">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="184" y="191" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.961@0.23.1680.961" timestamp="1582533109542" />
+    <state x="62" y="149" width="845" height="708" key="find.popup" timestamp="1582535368479">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="62" y="149" width="845" height="708" key="find.popup/0.23.1680.961@0.23.1680.961" timestamp="1582535368479" />
+  </component>
+</project>
