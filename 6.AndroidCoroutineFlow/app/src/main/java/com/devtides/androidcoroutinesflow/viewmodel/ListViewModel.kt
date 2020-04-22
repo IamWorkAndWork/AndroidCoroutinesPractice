@@ -12,11 +12,11 @@ import kotlinx.coroutines.flow.*
 class ListViewModel : ViewModel() {
 
     //way1
-//    val newsArticles = NewsRepository().getNewsArticle().asLiveData()
+    val newsArticles = NewsRepository().getNewsArticle().asLiveData()
 
-    var newsArticles:
-            MutableLiveData<NewsArticle> =
-        MutableLiveData()// = NewsRepository().getNewsArticleAlternative().asLiveData()
+    //var newsArticles:
+    //        MutableLiveData<NewsArticle> =
+    //    MutableLiveData()// = NewsRepository().getNewsArticleAlternative().asLiveData()
 
     var job: Job? = null
 
@@ -25,7 +25,7 @@ class ListViewModel : ViewModel() {
 //        onNewsArticle()
 
         //way3
-        onNewsArticle2()
+        //onNewsArticle2()
     }
 
 //    fun onNewsArticle() = runBlocking {
