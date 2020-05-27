@@ -8,9 +8,11 @@ import com.devtides.androidcoroutinesflow.R
 import com.devtides.androidcoroutinesretrofit.model.NewsArticle
 import kotlinx.android.synthetic.main.item_news_article.view.*
 
-class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>() {
+class NewsListAdapter : RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>() {
 
     private val newsItems = arrayListOf<NewsArticle>()
+
+    var onClickItem: ((NewsArticle) -> Unit)? = null
 
     fun onAddNewsItem(item: NewsArticle) {
         newsItems.add(0, item)
@@ -27,12 +29,18 @@ class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>(
         holder.bind(newsItems[position])
     }
 
-    class NewsItemViewHolder(view: View): RecyclerView.ViewHolder(view) {
+    inner class NewsItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         private val imageView = view.newsImage
         private val author = view.newsAuthor
         private val title = view.newsTitle
         private val publishedAt = view.newsPublishedAt
+
+        init {
+            view.setOnClickListener {
+                onClickItem?.invoke(newsItems.get(adapterPosition))
+            }
+        }
 
         fun bind(newsItem: NewsArticle) {
             imageView.loadImage(newsItem.urlToImage)

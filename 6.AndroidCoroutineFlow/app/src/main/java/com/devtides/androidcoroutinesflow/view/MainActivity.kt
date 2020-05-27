@@ -3,6 +3,7 @@ package com.devtides.androidcoroutinesflow.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,14 +29,23 @@ class MainActivity : AppCompatActivity() {
         }
 
         observeViewModel()
+        onListener()
+    }
+
+    private fun onListener() {
+        newsListAdapter?.onClickItem = { article ->
+            Toast.makeText(this, article.title, Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun observeViewModel() {
         viewModel.newsArticles.observe(this, Observer { article ->
-            loading_view.visibility = View.GONE
-            newsList.visibility = View.VISIBLE
-            newsListAdapter.onAddNewsItem(article)
-            newsList.smoothScrollToPosition(0)
+            article?.let {
+                loading_view.visibility = View.GONE
+                newsList.visibility = View.VISIBLE
+                newsListAdapter.onAddNewsItem(article)
+                newsList.smoothScrollToPosition(0)
+            }
         })
     }
 }

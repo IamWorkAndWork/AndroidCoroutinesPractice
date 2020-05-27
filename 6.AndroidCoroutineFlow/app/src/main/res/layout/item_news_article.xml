@@ -5,6 +5,9 @@
     style="@style/NewsArticle.View"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
     app:cardElevation="@dimen/card_elevation">
 
     <RelativeLayout

@@ -28,18 +28,32 @@ class NewsRepository {
 
     fun getNewsArticle(): Flow<NewsArticle> {
         return flow {
+
+            delay(NEWS_DELAY)
+
             var newsSource = newsService().getNews()
             newsSource.forEach {
                 emit(it)
                 delay(NEWS_DELAY)
             }
-        }.flowOn(Dispatchers.IO)
+
+        }
+    }
+
+    fun getNewsArticleList(): Flow<List<NewsArticle>> {
+        return flow {
+
+            delay(NEWS_DELAY)
+
+            var newsSource = newsService().getNews()
+            emit(newsSource)
+
+        }
     }
 
     suspend fun getNewsArticleAlternative(): Flow<NewsArticle> {
         return newsService().getNews()
             .asFlow()
-            .flowOn(Dispatchers.IO)
     }
 
 
