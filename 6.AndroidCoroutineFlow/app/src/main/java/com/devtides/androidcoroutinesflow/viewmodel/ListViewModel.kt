@@ -12,5 +12,5 @@ import kotlinx.coroutines.flow.*
 class ListViewModel : ViewModel() {
 
     val newsArticles = NewsRepository().getNewsArticle().asLiveData()
-    
+
 }
