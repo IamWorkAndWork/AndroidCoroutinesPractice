@@ -53,6 +53,9 @@ class NewsRepository {
 
     suspend fun getNewsArticleAlternative(): Flow<NewsArticle> {
         return newsService().getNews()
+            .onEach {
+                delay(NEWS_DELAY)
+            }
             .asFlow()
     }
 

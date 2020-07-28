@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.devtides.coroutinesroom.view.SignupFragment"
+        android:name="com.devtides.coroutinesroom.presentation.signup.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -16,10 +16,13 @@
         <action
             android:id="@+id/actionGoToLogin"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signupFragment_to_userListFragment"
+            app:destination="@id/userListFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.devtides.coroutinesroom.view.LoginFragment"
+        android:name="com.devtides.coroutinesroom.presentation.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -31,11 +34,16 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.devtides.coroutinesroom.view.MainFragment"
+        android:name="com.devtides.coroutinesroom.presentation.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/actionGoToSignup"
             app:destination="@id/signupFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.devtides.coroutinesroom.presentation.userlist.UserListFragment"
+        android:label="user_list_fragment"
+        tools:layout="@layout/user_list_fragment" />
 </navigation>

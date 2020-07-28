@@ -76,7 +76,24 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_signupFragment_to_userListFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="userListFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="496" />
+                            <option name="y" value="404" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

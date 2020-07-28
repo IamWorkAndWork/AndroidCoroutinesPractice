@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bkg_green"
-    tools:context=".view.SignupFragment">
+    tools:context=".presentation.signup.SignupFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -68,5 +68,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/signupBtn" />
+
+
+        <Button
+            android:id="@+id/goToUserListBtn"
+            style="@style/StandardButton"
+            android:layout_width="@dimen/std_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Go To List User"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gotoLoginBtn" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
